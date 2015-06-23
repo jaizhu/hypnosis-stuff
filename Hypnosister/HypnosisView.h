@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HypnosisView.h
 //  Hypnosister
 //
 //  Created by Jaimie Zhu on 6/18/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface HypnosisView : UIView
 
+@property (nonatomic) UIColor *color;
 
 @end
-

@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		CD6AE2211B33909600A1A2BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6AE2201B33909600A1A2BD /* main.m */; };
 		CD6AE2241B33909600A1A2BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6AE2231B33909600A1A2BD /* AppDelegate.m */; };
-		CD6AE2271B33909600A1A2BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6AE2261B33909600A1A2BD /* ViewController.m */; };
-		CD6AE22A1B33909600A1A2BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6AE2281B33909600A1A2BD /* Main.storyboard */; };
 		CD6AE22C1B33909600A1A2BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6AE22B1B33909600A1A2BD /* Images.xcassets */; };
 		CD6AE22F1B33909600A1A2BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6AE22D1B33909600A1A2BD /* LaunchScreen.xib */; };
 		CD6AE23B1B33909600A1A2BD /* HypnosisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6AE23A1B33909600A1A2BD /* HypnosisterTests.m */; };
+		CD6AE2461B3391AA00A1A2BD /* HypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6AE2451B3391AA00A1A2BD /* HypnosisView.m */; };
+		CD9C27D91B3479660035C61C /* MiniMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C27D81B3479660035C61C /* MiniMapView.m */; };
+		CD9C27DC1B3489020035C61C /* HypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C27DB1B3489020035C61C /* HypnosisViewController.m */; };
+		CD9C27DF1B348AE90035C61C /* ReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C27DE1B348AE90035C61C /* ReminderViewController.m */; };
+		CD9C27E11B348C370035C61C /* ReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9C27E01B348C370035C61C /* ReminderViewController.xib */; };
+		CDB7611B1B3932BC00FEFE29 /* HypnosisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDB7611A1B3932BC00FEFE29 /* HypnosisViewController.xib */; };
+		CDDAF5BD1B37C42900D063F9 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDAF5BC1B37C42900D063F9 /* QuizViewController.m */; };
+		CDDAF5C11B37C7C300D063F9 /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDDAF5C01B37C7C300D063F9 /* QuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +38,24 @@
 		CD6AE2201B33909600A1A2BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD6AE2221B33909600A1A2BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD6AE2231B33909600A1A2BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD6AE2251B33909600A1A2BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CD6AE2261B33909600A1A2BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CD6AE2291B33909600A1A2BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD6AE22B1B33909600A1A2BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CD6AE22E1B33909600A1A2BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CD6AE2341B33909600A1A2BD /* HypnosisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnosisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD6AE2391B33909600A1A2BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD6AE23A1B33909600A1A2BD /* HypnosisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnosisterTests.m; sourceTree = "<group>"; };
+		CD6AE2441B3391AA00A1A2BD /* HypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisView.h; sourceTree = "<group>"; };
+		CD6AE2451B3391AA00A1A2BD /* HypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisView.m; sourceTree = "<group>"; };
+		CD9C27D71B3479660035C61C /* MiniMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniMapView.h; sourceTree = "<group>"; };
+		CD9C27D81B3479660035C61C /* MiniMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiniMapView.m; sourceTree = "<group>"; };
+		CD9C27DA1B3489020035C61C /* HypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisViewController.h; sourceTree = "<group>"; };
+		CD9C27DB1B3489020035C61C /* HypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisViewController.m; sourceTree = "<group>"; };
+		CD9C27DD1B348AE90035C61C /* ReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderViewController.h; sourceTree = "<group>"; };
+		CD9C27DE1B348AE90035C61C /* ReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderViewController.m; sourceTree = "<group>"; };
+		CD9C27E01B348C370035C61C /* ReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReminderViewController.xib; sourceTree = "<group>"; };
+		CDB7611A1B3932BC00FEFE29 /* HypnosisViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HypnosisViewController.xib; sourceTree = "<group>"; };
+		CDDAF5BB1B37C42900D063F9 /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		CDDAF5BC1B37C42900D063F9 /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		CDDAF5C01B37C7C300D063F9 /* QuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +99,21 @@
 			children = (
 				CD6AE2221B33909600A1A2BD /* AppDelegate.h */,
 				CD6AE2231B33909600A1A2BD /* AppDelegate.m */,
-				CD6AE2251B33909600A1A2BD /* ViewController.h */,
-				CD6AE2261B33909600A1A2BD /* ViewController.m */,
-				CD6AE2281B33909600A1A2BD /* Main.storyboard */,
-				CD6AE22B1B33909600A1A2BD /* Images.xcassets */,
+				CD6AE2441B3391AA00A1A2BD /* HypnosisView.h */,
+				CD6AE2451B3391AA00A1A2BD /* HypnosisView.m */,
+				CD9C27D71B3479660035C61C /* MiniMapView.h */,
+				CD9C27D81B3479660035C61C /* MiniMapView.m */,
+				CD9C27DA1B3489020035C61C /* HypnosisViewController.h */,
+				CD9C27DB1B3489020035C61C /* HypnosisViewController.m */,
+				CDB7611A1B3932BC00FEFE29 /* HypnosisViewController.xib */,
+				CD9C27DD1B348AE90035C61C /* ReminderViewController.h */,
+				CD9C27DE1B348AE90035C61C /* ReminderViewController.m */,
+				CDDAF5BB1B37C42900D063F9 /* QuizViewController.h */,
+				CDDAF5BC1B37C42900D063F9 /* QuizViewController.m */,
+				CD9C27E01B348C370035C61C /* ReminderViewController.xib */,
+				CDDAF5C01B37C7C300D063F9 /* QuizViewController.xib */,
 				CD6AE22D1B33909600A1A2BD /* LaunchScreen.xib */,
+				CD6AE22B1B33909600A1A2BD /* Images.xcassets */,
 				CD6AE21E1B33909600A1A2BD /* Supporting Files */,
 			);
 			path = Hypnosister;
@@ -199,8 +225,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD6AE22A1B33909600A1A2BD /* Main.storyboard in Resources */,
+				CDDAF5C11B37C7C300D063F9 /* QuizViewController.xib in Resources */,
 				CD6AE22F1B33909600A1A2BD /* LaunchScreen.xib in Resources */,
+				CD9C27E11B348C370035C61C /* ReminderViewController.xib in Resources */,
+				CDB7611B1B3932BC00FEFE29 /* HypnosisViewController.xib in Resources */,
 				CD6AE22C1B33909600A1A2BD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +247,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD6AE2271B33909600A1A2BD /* ViewController.m in Sources */,
 				CD6AE2241B33909600A1A2BD /* AppDelegate.m in Sources */,
 				CD6AE2211B33909600A1A2BD /* main.m in Sources */,
+				CD9C27DF1B348AE90035C61C /* ReminderViewController.m in Sources */,
+				CDDAF5BD1B37C42900D063F9 /* QuizViewController.m in Sources */,
+				CD9C27D91B3479660035C61C /* MiniMapView.m in Sources */,
+				CD6AE2461B3391AA00A1A2BD /* HypnosisView.m in Sources */,
+				CD9C27DC1B3489020035C61C /* HypnosisViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +276,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CD6AE2281B33909600A1A2BD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD6AE2291B33909600A1A2BD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CD6AE22D1B33909600A1A2BD /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -350,6 +374,7 @@
 				INFOPLIST_FILE = Hypnosister/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -360,6 +385,7 @@
 				INFOPLIST_FILE = Hypnosister/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -416,6 +442,7 @@
 				CD6AE2401B33909600A1A2BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD6AE2411B33909600A1A2BD /* Build configuration list for PBXNativeTarget "HypnosisterTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +451,7 @@
 				CD6AE2431B33909600A1A2BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
