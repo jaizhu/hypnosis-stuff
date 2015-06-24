@@ -14,27 +14,6 @@
 @end
 
 @implementation HypnosisViewController
-@synthesize segmentedControl;
-
-// CHALLENGEEEEE
-- (IBAction)segmentedControlAction:(id)sender {
-    if (segmentedControl.selectedSegmentIndex == 0) {
-        [self changeColor:[UIColor purpleColor]];
-    } else if (segmentedControl.selectedSegmentIndex == 1) {
-        [self changeColor:[UIColor grayColor]];
-    } else if (segmentedControl.selectedSegmentIndex == 2) {
-        [self changeColor:[UIColor yellowColor]];
-    } else {
-        NSLog(@"NOOOOO THIS SHOULD NOT EVER PRINT");
-    }
-}
-
-- (void)changeColor:(UIColor*)newColor {
-    [self.view removeFromSuperview];
-    CGRect frame = [[UIScreen mainScreen] bounds];
-    HypnosisView *backgroundView = [[HypnosisView alloc] initWithFrame:frame];
-    backgroundView.color = newColor;
-}
 
 - (void)loadView {
     // create a view
@@ -43,10 +22,6 @@
     
     // set it as *the* view of this controller
     self.view = backgroundView;
-    
-    [segmentedControl addTarget:self
-                         action:@selector(segmentedControlAction:)
-               forControlEvents:UIControlEventValueChanged];
     
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
     label.center = self.view.center;

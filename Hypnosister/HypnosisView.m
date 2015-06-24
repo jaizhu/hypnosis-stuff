@@ -11,9 +11,26 @@
 @interface HypnosisView ()
 @property (nonatomic, assign) CGFloat radiusOffset;
 @property (nonatomic, strong) NSTimer *timer;
+@property (nonatomic) UIColor *color;
 @end
 
 @implementation HypnosisView
+
+// CHALLENGEEEEE
+- (void)segmentedControlAction:(UISegmentedControl *)segControl {
+    if (segControl.selectedSegmentIndex == 0) {
+        self.color = [UIColor purpleColor];
+    } else if (segControl.selectedSegmentIndex == 1) {
+        self.color = [UIColor grayColor];
+    } else if (segControl.selectedSegmentIndex == 2) {
+        self.color = [UIColor blueColor];
+    };
+}
+
+- (void)setColor:(UIColor *)color {
+    _color = color;
+    [self setNeedsDisplay];
+}
 
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
@@ -52,15 +69,29 @@
         
         // draw the path
         [path stroke];
+        
+        
     }
     
     // challenge - the image
 //    CGFloat second_centerx = bounds.origin.x;
 //    CGFloat second_centery = bounds.origin.y;
-//    UIImage *someImage = [UIImage imageNamed:@"dog"];
-//    CGRect someRect = CGRectMake (centerX - 50, centerY - 50, 100, 100);
-//    
-//    [someImage drawInRect:someRect];
+    UIImage *someImage = [UIImage imageNamed:@"dog"];
+    CGRect someRect = CGRectMake (centerX - 50, centerY - 50, 100, 100);
+    
+    [someImage drawInRect:someRect];
+    
+    UISegmentedControl *segControl = [[UISegmentedControl alloc] initWithItems:@[@"Purple", @"Gray", @"Blue"]];
+    
+    [segControl addTarget:self
+                   action:@selector(segmentedControlAction:)
+         forControlEvents:UIControlEventValueChanged];
+    
+    segControl.frame = CGRectMake(centerX - 140, centerY + 100, 280, 20);
+    
+    [self.superview addSubview:segControl];
+    
+    segControl.momentary = YES;
 }
 
 /////////////////////////// OVERRIDING THINGS ////////////////////////////////

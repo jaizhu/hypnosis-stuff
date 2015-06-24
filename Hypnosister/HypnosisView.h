@@ -10,6 +10,4 @@
 
 @interface HypnosisView : UIView
 
-@property (nonatomic) UIColor *color;
-
 @end
